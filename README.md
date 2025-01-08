@@ -30,50 +30,6 @@ Each lab includes the following sections:
 
 ---
 
-## **Sample Lab: Implementing Azure AD Conditional Access**
-
-### **Objective**
-Learn how to create and test a Conditional Access policy in Azure AD to secure access to an application.
-
-### **Prerequisites**
-- An active Azure subscription.
-- Azure AD Premium P2 license.
-- A user account with Global Administrator or Security Administrator role.
-
-### **Steps**
-
-#### 1. **Access Azure AD**
-- Navigate to the [Azure Portal](https://portal.azure.com/).
-- In the left-hand menu, select **Azure Active Directory**.
-
-#### 2. **Create a Conditional Access Policy**
-- In Azure AD, go to **Security** > **Conditional Access**.
-- Click **+ New policy** and give it a name (e.g., “Secure Access Policy”).
-- Assign the policy to a group or user.
-
-#### 3. **Configure Conditions**
-- Under **Assignments**, configure the following:
-  - **Users**: Select a test user or group.
-  - **Cloud Apps**: Choose an app (e.g., Microsoft Teams).
-  - **Conditions**: Enable specific conditions like device platform or location.
-
-#### 4. **Enable Access Controls**
-- Under **Access controls**, select **Grant** and require MFA.
-- Click **Enable policy** and save the configuration.
-
-#### 5. **Test the Policy**
-- Sign in as the test user.
-- Verify that MFA is required as per the policy.
-
-#### 6. **Cleanup**
-- Disable or delete the Conditional Access policy to avoid disruption.
-
-### **Validation**
-- Confirm that access is restricted based on the configured conditions.
-- Check Azure AD Sign-In Logs to review authentication activity.
-
----
-
 ## **Contributing**
 
 If you’d like to contribute to this repository, please follow these steps:
