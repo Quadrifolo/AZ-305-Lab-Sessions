@@ -86,9 +86,9 @@ Steps:
   
 
 ### Resources
-[Azure Backup Documentation](https://learn.microsoft.com/en-us/azure/backup/)
-[Azure Site Recovery Documentation](https://learn.microsoft.com/en-us/azure/site-recovery/)
-[Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)
+- [Azure Backup Documentation](https://learn.microsoft.com/en-us/azure/backup/)
+- [Azure Site Recovery Documentation](https://learn.microsoft.com/en-us/azure/site-recovery/)
+- [Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)
 
-###Notes
+### Notes
 This lab demonstrates how to implement data protection and monitoring strategies to ensure business continuity and proactive performance management.
