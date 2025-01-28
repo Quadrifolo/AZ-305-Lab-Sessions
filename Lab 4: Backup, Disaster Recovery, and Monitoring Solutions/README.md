@@ -71,13 +71,24 @@ Steps:
   bash
   Copy
   Edit
-  az monitor log-analytics workspace delete
-  --resource-group <ResourceGroup> --workspace-name <WorkspaceName>
+
+   ---
+
+## Clean-Up
+
+1. Remove unnecessary resources to minimize costs:
+   ```bash
+   az monitor log-analytics workspace delete --resource-group <ResourceGroup> --workspace-name <WorkspaceName>
+   ```
+
+   ---
+
+  
 
 ### Resources
-Azure Backup Documentation
-Azure Site Recovery Documentation
-Azure Monitor Documentation
+[Azure Backup Documentation](https://learn.microsoft.com/en-us/azure/backup/)
+[Azure Site Recovery Documentation](https://learn.microsoft.com/en-us/azure/site-recovery/)
+[Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)
 
 ###Notes
 This lab demonstrates how to implement data protection and monitoring strategies to ensure business continuity and proactive performance management.
